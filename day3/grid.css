@@ -1,0 +1,48 @@
+form{
+    display: grid;
+    grid-template-areas: 
+    "ip1 ip2 ip2"
+    "ip3 ip4 ip4"
+    "ip5 ip6 ip6"
+    "ip7 ip7 ip7"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+#ip1{
+    grid-area: ip1;
+
+}
+#ip2{
+    grid-area: ip2;
+}
+#ip3{
+    grid-area: ip3;
+}
+#ip4{
+    grid-area: ip4;
+}
+#ip5{
+    grid-area: ip5;
+}
+#ip6{
+    grid-area: ip6;
+}
+#ip7{
+    grid-area: ip7;
+}
+#ip1, #ip3, #ip5{
+    background-color: brown;
+    height: 60px;
+   
+}
+#ip2, #ip4, #ip6{
+    background-color: rgb(69, 42, 165);
+    height: 60px;
+   
+}
+#ip7, #ip7{
+    background-color: rgb(226, 230, 14);
+    height: 60px;
+   
+}

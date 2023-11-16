@@ -1,0 +1,111 @@
+*{
+    margin: 2px;
+    padding: 0px;
+  
+}
+.main{
+    background-color: black;
+    /*height: 60px; */
+   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    font-size: 30px;
+}
+img{
+    height: 300px;
+    width: 250px;
+    transition: all 1s;
+}
+.container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container2{
+    display:flex;
+    justify-content: space-around;
+}
+.container3{
+    display:flex;
+    justify-content: space-around;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.div1{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    width: 100px;
+    color: gray;
+    margin-bottom: 40px;
+    
+}
+h6{
+    color: green;
+    font-size: 20px;
+}
+strike{
+    color: gray;
+
+}
+.bas{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    padding: 35px;
+    background: linear-gradient(to right,   rgb(12, 6, 11) , #000429);
+    color:white;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.div1{
+    position: relative;
+}
+.btn1{
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border:none;
+    background-color: red;
+    color: white;
+}
+.btn2{
+    position: absolute;
+    top: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border:none;
+    background-color:green;
+    color: white;
+    left: 20px;
+}
+.achat:hover{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transform: scale(1.1);
+}
+@media screen and (max-width:600px){
+   .container1{
+    display:flex;
+    flex-direction: column;
+   }
+}

@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    "div1 div1 div1 div1"
+    "div1 div1 div1 div1"
+    "div2 div3 div3 div1"
+    "div2 div5 div5 div1"
+    "div6 div6 div7 div1"
+    "div8 div8 div8 div1"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}

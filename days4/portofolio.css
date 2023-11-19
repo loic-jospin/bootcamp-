@@ -1,0 +1,13 @@
+img{
+    width: 100%;
+}
+h6{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icone{
+display: grid;
+gap: 15px;    
+
+}
